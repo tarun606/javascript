@@ -25,6 +25,8 @@
 // const obj3 = {5:"e", 6:"f"}
 // //const obj4 = {obj1,obj2}
 // //const obj4 = Object.assign({},obj1,obj2,obj3);
+
+/*                              spread operator
 // const obj4 = {...obj1,...obj2,...obj3};
 // console.log(obj4);
 
@@ -64,15 +66,29 @@
 
 
 
-const course = {
-    courseName: "javascript",
-    price:999,
-    courseInstructor:"Hitesh"
-}
-// console.log(course.courseInstructor);
-//              or
-// const{courseInstructor} = course;
-// console.log(courseInstructor);
-//              or
-const{courseInstructor:instructor} = course;
-console.log(instructor);
+// const course = {
+//     courseName: "javascript",
+//     price:999,
+//     courseInstructor:"Hitesh"
+// }
+// // console.log(course.courseInstructor);
+// //              or
+// // const{courseInstructor} = course;
+// // console.log(courseInstructor);
+// //              or
+// const{courseInstructor:instructor} = course;
+// console.log(instructor);
+
+
+/*                              API JSON                                */
+// {
+//     "name":"abc",
+//     "coursename":"Js in Hindi",
+//     "price": "free"
+// }
+/*                              API using array                                */
+// [
+//     {},
+//     {},
+//     {}
+// ]
