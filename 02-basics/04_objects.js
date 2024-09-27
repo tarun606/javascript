@@ -49,16 +49,30 @@
 
 /*                                      to acces keys and values from object separately           */
 
-const tinder = {
-    name:"tarun",
-    email:"abc",
-    face:10,
-    job:"dev",
-    des:false
-}
-console.log (Object.keys(tinder));
-console.log(Object.values(tinder));
-console.log(Object.entries(tinder));
-console.log (typeof(tinder));
-console.log(tinder.hasOwnProperty("des"));
+// const tinder = {
+//     name:"tarun",
+//     email:"abc",
+//     face:10,
+//     job:"dev",
+//     des:false
+// }
+// console.log (Object.keys(tinder));
+// console.log(Object.values(tinder));
+// console.log(Object.entries(tinder));
+// console.log (typeof(tinder));
+// console.log(tinder.hasOwnProperty("des"));
 
+
+
+const course = {
+    courseName: "javascript",
+    price:999,
+    courseInstructor:"Hitesh"
+}
+// console.log(course.courseInstructor);
+//              or
+// const{courseInstructor} = course;
+// console.log(courseInstructor);
+//              or
+const{courseInstructor:instructor} = course;
+console.log(instructor);

@@ -25,10 +25,12 @@ const Jsuser = {
 Jsuser.greetings = function(){
     console.log("Hello js");
 }
-console.log(Jsuser.greetings());
+// console.log(Jsuser.greetings());
 
 
 Jsuser.greetings2 = function(){
-    console.log(`Hello js user ${this.name}`);
+    console.log(`${this.name}`);
 }
-console.log(Jsuser.greetings2());
+// console.log(Jsuser.greetings2());
+
+console.log(Jsuser.greetings()+Jsuser.greetings2());
