@@ -82,8 +82,9 @@
 
 
 /*                              Function with array                             */
-// const arr = [100,200,300,400];
-// function ReturnSecondArray(getarray){
-//     return getarray[1];
-// }
-// console.log(ReturnSecondArray([100,200,300,400]));
+const arr = [100,200,300,400];
+function ReturnSecondArray(getarray){
+    return getarray[1];
+}
+console.log(ReturnSecondArray(arr));
+console.log(ReturnSecondArray([100,200,300,400]));
